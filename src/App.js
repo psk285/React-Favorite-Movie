@@ -115,7 +115,6 @@ class App extends Component {
         }
       }
     }
-    this.setState({ data: profiles });
     return profiles;
   }
   async componentDidMount() {
